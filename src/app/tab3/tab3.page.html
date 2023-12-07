@@ -1,17 +1,32 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-title>Información de la App</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">Mi primera App</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <p>Esta aplicación fue desarrollada utilizando las siguientes tecnologías:</p>
+      <ul>
+        <li><b>Ionic</b>: Un marco de trabajo de código abierto para el desarrollo de aplicaciones móviles.</li>
+        <li><b>Angular</b>: Un marco de trabajo de JavaScript para la construcción de aplicaciones web y móviles.</li>
+      </ul>
+      
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content class="ion-text-center">
+      <h1>Desarrollado por:<br><b>Drago dev</b></h1>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
