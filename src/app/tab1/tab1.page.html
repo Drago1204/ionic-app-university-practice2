@@ -1,29 +1,35 @@
-<ion-header [translucent]="true"> 
-  <ion-toolbar> <ion-buttons slot="start"> 
-    <ion-menu-button></ion-menu-button> </ion-buttons> 
-  <ion-title>Mi App</ion-title> 
-</ion-toolbar> 
+<ion-header [translucent]="true">
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Mi App</ion-title>
+  </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true"> 
-  <ion-grid> 
-    <ion-row class="ion-align-items-center" style="justify-content: center;"> 
-      <ion-col size="6"> 
-        <ion-avatar class="ion-margin" style="width: 150px; height: 150px; margin-top: 50px;"> 
-          <img src="https://unavatar.io/kikobeats"> 
-        </ion-avatar> 
-      </ion-col> 
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row class="ion-align-items-center ion-justify-content-center">
+      <ion-col size="6">
+        <ion-avatar
+          class="ion-margin"
+          style="width: 150px; height: 150px; margin-top: 50px"
+        >
+          <img src="assets/avatar.png" />
+        </ion-avatar>
+      </ion-col>
     </ion-row>
-
-    <ion-row class="ion-align-items-center ion-justify-content-center"> 
-      <ion-col size="12"> 
-        <ion-text class="ion-text-center"> 
-          <h2>Hola, soy Osweld</h2> 
-          <p>Esta es mi app personal donde puedes conocer más sobre mí, mi información y mis contactos.</p> 
-        </ion-text> 
-      </ion-col> 
+    <ion-row class="ion-align-items-center ion-justify-content-center">
+      <ion-col size="12">
+        <ion-text class="ion-text-center">
+          <h2>¡Bienvenido a Mi App!</h2>
+          <p>
+            ¿Quieres conocer más sobre mí? ¡Estás en el lugar correcto! Aquí
+            encontrarás todo lo que necesitas saber y cómo ponerte en contacto
+            conmigo. ¡Espero que disfrutes tu visita!
+          </p>
+        </ion-text>
+      </ion-col>
     </ion-row>
-
-    
-  </ion-grid> 
+  </ion-grid>
 </ion-content>
